@@ -1,5 +1,7 @@
+<script setup>
+import { ulid } from 'ulid'
+const i = ulid()
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+{{ i }}
 </template>
